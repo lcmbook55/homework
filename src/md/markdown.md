@@ -199,8 +199,9 @@
         + 🎾
 ```
 
-- ⚽️ + 🏀 + 🎾
-  <br>
+- ⚽️
+  - 🏀 - 🎾
+    <br>
 
 <!-- Numbered list -->
 
@@ -303,7 +304,7 @@ add index.html README.md\ngit commit -m "과제 작성자 이름 변경"
 | :-: | ----: | :----------------- |
 |  1  | Drama | 친애하는 X         |
 |  2  | Movie | Pulp Fiction       |
-|  3  |  Docu | My Octopus Teasher |
+|  3  |  Docu | My Octopus Teacher |
 |  4  | Music | Jutes-It Takes Two |
 |  5  |   Art | Francis Bacon      |
 |     |       |
