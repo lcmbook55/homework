@@ -21,6 +21,10 @@
 
 <br>
 
+<br>
+
+<br>
+
 <!-- About -->
 
 ## About
@@ -106,7 +110,7 @@
 *****
 - - -
 -------------------
- *******************
+*******************
 ```
 
 ---
@@ -298,7 +302,6 @@ add index.html README.md\ngit commit -m "과제 작성자 이름 변경"
 |3|Docu|My Octopus Teasher|
 |4|Music|Jutes-It Takes Two|
 |5|Art|Francis Bacon|
-|||
 ```
 
 | No. |  Type | Tatle              |
@@ -352,4 +355,5 @@ add index.html README.md\ngit commit -m "과제 작성자 이름 변경"
 - [x] 겸손
 
 - [x] 의사 소통 능력, 팀워크
+
 - [x] 건강 관리 능력
