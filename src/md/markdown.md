@@ -63,7 +63,7 @@
 
 <!-- Preview 단축키-->
 
-## Preview (VScord 단축키)
+## Preview (VScode 단축키)
 
 `commend+shift+V`
 
