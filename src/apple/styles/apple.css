@@ -1,3 +1,63 @@
-@import "./card-component.css";
+@import './card-component.css';
 
 /* 카드 레이아웃 */
+
+@media (min-width: 1024px) {
+  .card-component {
+    padding-top: var(--extra-large-spacing);
+  }
+
+  .product {
+    font-size: var(--extra-large-text);
+  }
+
+  .explanation {
+    font-size: var(--medium-text);
+    margin-bottom: var(--x-small-spacing);
+  }
+
+  .release-date {
+    font-size: var(--small-text);
+    margin-bottom: var(--base-spacing);
+  }
+
+  .button {
+    font-size: var(--x-small-text);
+    padding: var(--x-small-spacing) var(--small-spacing);
+  }
+}
+
+/* 1. iPad Pro */
+.card-ipadpro .product-image {
+  background-image: url('/src/apple/products/ipad_pro.jpeg');
+}
+
+/* 2. iPad Air */
+.card-ipadair .product-image {
+  background-image: url('/src/apple/products/ipad_air.jpeg');
+}
+
+/* 3. iPhone 15 Pro */
+.card-iphone15pro .product-image {
+  background-image: url('/src/apple/products/iphone15_pro.jpeg');
+}
+
+/* 4. iPhone 15 */
+.card-iphone15 .product-image {
+  background-image: url('/src/apple/products/iphone15.jpeg');
+}
+
+/* 5. Watch */
+.card-watch .product-image {
+  background-image: url('/src/apple/products/apple_watch.jpeg');
+}
+
+/* 6. MacBook Air */
+.card-macbookair .product-image {
+  background-image: url('/src/apple/products/macbook_air.jpeg');
+}
+
+/* 7. AirPods Pro */
+.card-airpodspro .product-image {
+  background-image: url('/src/apple/products/airpods_pro.jpeg');
+}

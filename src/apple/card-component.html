@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -8,9 +8,29 @@
     <link rel="apple-touch-icon" href="./favicon/apple-favicon.svg" />
     <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet" />
     <link rel="stylesheet" href="./styles/card-component.css" />
+    <script type="module" src="/src/apple/js/copy-component.js"></script>
   </head>
   <body>
     <!-- 카드 컴포넌트 -->
-
+    <!-- 기본 블루- -->
+    <h1 class="sr-only">APPLE 폼 서식</h1>
+    <!-- 제품 설명 -->
+    <h2 class="sr-only">제품 설명</h2>
+    <div class="card-component">
+      <div class="product-image"></div>
+      <!-- 문구 -->
+      <h2 class="product">iPad Pro</h2>
+      <p class="explanation">놀라우리만치 얇다.<br />엄청나게 강력하다.</p>
+      <p class="release-date">출시일 추후 공개</p>
+      <!-- 버튼 -->
+      <h3 class="sr-only">버튼</h3>
+      <div class="button-component">
+        <a class="button button-fill" href="#learn">더 알아보기</a>
+        <a class="button button-outline" href="#price">가격 보기</a>
+        <!-- <hr />
+      <a class="button button-fill-bk" href="#learn-bk">더 알아보기</a>
+      <a class="button button-outline-bk" href="#price-bk">가격 보기</a> -->
+      </div>
+    </div>
   </body>
 </html>

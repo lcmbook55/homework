@@ -1,3 +1,109 @@
-@import "./reset.css";
-@import "./theme.css";
-@import "./base.css";
+@import './reset.css';
+@import './theme.css';
+@import './base.css';
+/* 컴포넌트 전체 적용 */
+/* body {
+  background: pink;
+} */
+/* 제품 설명 */
+.card-component {
+  position: relative; /* 자식 absolute 요소의 기준점 */
+  overflow: hidden;
+  height: var(--size);
+  text-align: center; /* 텍스트 수평 중앙 정렬 */
+  z-index: 1;
+}
+/* 배경 이미지 */
+.product-image {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('/src/apple/products/ipad_pro.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* 제품명 (.product) */
+.product {
+  font-size: var(--large-text);
+  color: var(--white);
+  position: absolute;
+  top: var(--large-spacing); /* 상단에서 40px 시작 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 10;
+}
+
+/* 설명 (.explanation) */
+.explanation {
+  font-size: var(--base-text);
+  color: var(--white);
+  position: absolute;
+  /* 제목 아래 명시적인 간격: 40px(large-spacing) + 8px (x-small-spacing) 정도의 위치에 오도록 48px 설정 */
+  top: calc(var(--large-spacing) + 48px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 10;
+  margin: 0;
+}
+
+/* 출시일 (.release-date) */
+.release-date {
+  font-size: var(--small-text);
+  color: var(--gray);
+  position: absolute;
+  /* 설명 문구 아래에 위치하도록 90px 설정 */
+  top: calc(var(--large-spacing) + 90px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 10;
+}
+
+/* 버튼 컨테이너 (.button-component) */
+.button-component {
+  font-size: var(--small-text);
+  color: var(--gray);
+  position: absolute;
+  /* 출시일 아래에 위치하도록 120px 설정 */
+  top: calc(var(--large-spacing) + 120px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.button {
+  /* 버튼 기본스타일 */
+  border: none;
+  border-radius: 30px;
+  padding: var(--x-small-spacing) var(--small-spacing);
+  color: var(--white);
+  font-size: var(--xx-small-text);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* &:focus-visible {
+    outline: 2px solid var(--blue-400);
+  } */
+&.button-fill {
+  background: var(--blue-200);
+}
+&.button-outline {
+  background: none;
+  border: 1px solid var(--blue-300);
+  color: var(--blue-300);
+}
+&.button-fill-bk {
+  background: var(--black);
+}
+&.button-outline-bk {
+  background: none;
+  border: 1px solid var(--black);
+  color: var(--black);
+}
