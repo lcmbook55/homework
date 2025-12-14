@@ -61,3 +61,7 @@
 .card-airpodspro .product-image {
   background-image: url('../products/airpods_pro.jpeg');
 }
+
+.text-ipadair {
+  color: var(--black);
+}
